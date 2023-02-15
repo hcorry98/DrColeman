@@ -40,7 +40,7 @@
 
 5. Type a commit message and press the checkmark in the upper right-hand corner
 
-6. Press save
+6. Press `Save`
 
 7. Click `Sync Changes` in the `Source Control` bar on the left to push the changes to your online repository
 
@@ -48,4 +48,4 @@
 
 1. Go to `Source Control` on the left bar
 
-2. Click 'Sync Changes' to pull the changes from your online repository
+2. Click `Sync Changes` to pull the changes from your online repository
