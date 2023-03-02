@@ -82,6 +82,8 @@
 
 10. Review everything and press `Complete Order`
 
+11. Before proceeding, ensure you have verified your email address with AWS. If you have done this before, you won't need to redo it. If you don't verify your email address, AWS will suspend your domain name. If you go to 
+
 ### Fourth, assign the domain name and manage DNS records:
 
 1. Go to AWS account
@@ -118,9 +120,11 @@
 
 8. Test your domain name was assigned correctly by going to `http://[your domain]`
 
-9. You may get a warning that your website is unsecure. We will handle this in the next section
+9. If it does not work, give it some time for the DNS records to propagate. It can take up to 10 minutes.
 
-10. Test any subdomain with `http://[any subdomain].[your domain]`
+10. You may get a warning that your website is unsecure. We will handle this in the next section
+
+11. Test any subdomain with `http://[any subdomain].[your domain]`
 
 ### Fifth, use Caddy to support HTTPS:
 
