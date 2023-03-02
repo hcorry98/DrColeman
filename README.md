@@ -18,7 +18,7 @@
 
 5. Name instance (Optional: use convention [owner]-[purpose]-[version] such as 260-webserver-base)
 
-6. Search for the Amazon Machine Image (AMI ID: `ami-0b41d83057f814e3a`) - If you cannot find the AMI, make sure you are in the correct region as explained in Step 3.
+6. Search for the Amazon Machine Image (AMI ID: `ami-0b41d83057f814e3a`) - If you cannot find the AMI, make sure you are in the correct region as explained in Step 3
 
 7. Select `Community AMIs` and select the image
 
