@@ -46,11 +46,11 @@
 
 5. Press the `Allocate` button
 
-6. Select the newly displayed allocated address and edit it's name to give it a meaningful name
+6. Select the newly displayed allocated address and edit it's name to give it a meaningful name (such as the same name as your instance)
 
 7. Press the `Actions` button
 
-8. Selectt the `Associate Elastic IP address` option
+8. Select the `Associate Elastic IP address` option
 
 9. Click on the `Instance` box and select the server instance you just created
 
