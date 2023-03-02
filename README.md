@@ -56,6 +56,8 @@
 
 10. Press Associate
 
+11. Remember this allocated elastic IP address--you will need it in Section 4 to assign your domain name to your instance
+
 ### Third, purchase a domain name:
 
 1. Go to AWS account
@@ -94,7 +96,7 @@
 
     i. Press the `Create record` button
 
-    ii. In the value box enter the public IP address of your server (just the IP address, no HTTP or additional formatting)
+    ii. In the value box enter the allocated elastic public IP address of your server (just the IP address, no HTTP or additional formatting)
 
     iii. Press `Create records`
 
