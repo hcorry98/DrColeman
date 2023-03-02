@@ -200,7 +200,7 @@ myfunkychickens.click {
 sudo service caddy restart
 ```
 
-11. You make exit the remote shell by running the `exit` command
+11. You may exit the remote shell by running the `exit` command
 
 12. Use your browser to navigate to your domain name and you will see that the browser is displaying a lock icon, showing your website is using HTTPS
 
