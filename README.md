@@ -58,6 +58,8 @@
 
 11. Remember this allocated elastic IP address--you will need it in Section 4 to assign your domain name to your instance
 
+12. Test to make sure your website is visible by visiting the elastic IP address in your web browser(`http://[elastic IP address]`)
+
 ### Third, purchase a domain name:
 
 1. Go to AWS account
