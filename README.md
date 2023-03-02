@@ -142,13 +142,15 @@ for example,
 ➜  ssh -i ~/keys/production.pem ubuntu@myfunkychickens.click
 ```
 
+:warning: As it connects to the server it might warn you that it hasn't seen this server before. You can confidently say yes since you are sure of the identity of this server
+
 :warning: You will likely get an error stating that your key pair file permissions are too open. If so then you can restrict the permission on your file so that they are not accessible to all users by running the `chmod` console command:
 
 ```
 `chmod 600 [key pair file]`
 ```
 
-:warning: As it connects to the server it might warn you that it hasn't seen this server before. You can confidently say yes since you are sure of the identity of this server
+If you needed to chmod your key pair file, you now need to ssh into your production environment server. Restart from Step 2.
 
 Once you are connected, you are now looking at a console window for the web server that you launched and you should be in the ubuntu user's home directory. If you run `ls -l`, you should see the following:
 
