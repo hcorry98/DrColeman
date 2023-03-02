@@ -16,15 +16,15 @@
 
 4. Select `Launch Instance`
 
-5. Name instance (use convention [owner]-[purpose]-[version] such as 260-webserver-base)
+5. Name instance (Optional: use convention [owner]-[purpose]-[version] such as 260-webserver-base)
 
-6. Search for the Amazon Machine Image (AMI ID: `ami-0b41d83057f814e3a`)
+6. Search for the Amazon Machine Image (AMI ID: `ami-0b41d83057f814e3a`) - If you cannot find the AMI, make sure you are in the correct region as explained in Step 3.
 
 7. Select `Community AMIs` and select the image
 
 8. Select t2.micro, t3.micro, or t3.nano for the instance type depending on resources needed and free options available
 
-9. Create a new key pair and save somewhere *private and secure*
+9. Create a new key pair and save somewhere *private and secure* (Optional: use convention [instanceName]-key)
 
 10. Auto-assign public IP
 
